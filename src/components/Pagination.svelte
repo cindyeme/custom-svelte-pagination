@@ -15,8 +15,8 @@
 
   // handle next/prev clicks
   function handleOptionClick (option) {
-    if(option !== currentPage){
-    dispatch('setPage', option)
+    if (option !== currentPage){
+      dispatch('setPage', option)
     }
   }
 </script>
