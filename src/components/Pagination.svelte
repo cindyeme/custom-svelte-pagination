@@ -6,9 +6,8 @@
   export let totalItems = 0
   export let pageSize = 1
   export let currentPage = 1
-  export let perPage;
 
-  export function range(size, startAt = 0) {
+  function range(size, startAt = 0) {
     return [...Array(size).keys()].map(i => i + startAt);
   }
 

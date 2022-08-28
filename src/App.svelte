@@ -8,7 +8,6 @@
 
   let items = [];
   let currentPage = 1;
-	let perPage = 1;
   let pageSize = 6;
 	let loading = true;
 
@@ -44,7 +43,7 @@
 		<!-- Pagination -->
 		<div class="pagination">
 			<!-- Shows numbers -->
-			{#if items.length > perPage}
+			{#if items.length > pageSize}
 				<Pagination
 					totalItems="{items.length}"
 					pageSize="{pageSize}"
