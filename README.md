@@ -9,7 +9,7 @@ https://github.com/cindyeme/custom-svelte-pagination.git
 Install the dependencies...
 
 ```bash
-cd svelte-project
+cd custom-svelte-pagination
 npm install
 ```
 
