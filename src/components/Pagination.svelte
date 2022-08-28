@@ -7,13 +7,14 @@
   export let pageSize = 1
   export let currentPage = 1
 
+  // get the range of the available pages
   function range(size, startAt = 0) {
     return [...Array(size).keys()].map(i => i + startAt);
   }
 
   $: lastPage = Math.ceil(totalItems / pageSize)
 
-  // handle next/prev clicks
+  // handle next/prev clicks by dispatching a "setPage" event
   function handleOptionClick (option) {
     if (option !== currentPage){
       dispatch('setPage', option)

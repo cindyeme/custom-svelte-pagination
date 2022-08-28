@@ -2,7 +2,7 @@
 
 First clone the app by running: 
 ```bash
-git clone https://github.com/cindyeme/svelte-pagination.git
+https://github.com/cindyeme/custom-svelte-pagination
 ```
 ## Get started
 
